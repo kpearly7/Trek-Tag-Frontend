@@ -34,7 +34,7 @@ function App() {
   const [submitting, setSubmitting] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:8080/api/places")
+    fetch("https://trek-tag-backend.onrender.com")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Could not load destinations from the server.");
@@ -78,7 +78,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://localhost:8080/api/places",
+        "https://trek-tag-backend.onrender.com",
         {
           method: "POST",
           headers: {

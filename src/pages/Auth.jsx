@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Auth.css";
 
-const API = "http://localhost:8080/api/auth";
+const API = "https://trek-tag-backend.onrender.com";
 
 export default function Auth() {
   const navigate = useNavigate();
