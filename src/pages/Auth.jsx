@@ -23,7 +23,7 @@ export default function Auth() {
 
     try {
       const endpoint =
-        mode === "signup" ? "/register" : "/login";
+  mode === "signup" ? "/api/auth/register" : "/api/auth/login";
 
       const body =
         mode === "signup"
