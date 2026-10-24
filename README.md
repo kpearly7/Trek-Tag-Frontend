@@ -1,16 +1,28 @@
-# React + Vite
+# Trek & Tag
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Trek & Tag is a location-based discovery platform that helps users explore hidden local places, discover unique experiences, and share interesting destinations.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Frontend
+- React
+- Vite
+- JavaScript
+- CSS
 
-## React Compiler
+### Backend
+- Java
+- Spring Boot
+- Spring Data JPA
+- Spring Security
+- H2 Database
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
+- Discover interesting local places
+- Share places and experiences
+- User registration and login
+- Browse place details
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+- `src/` — React frontend source code
+- Spring Boot backend maintained in a separate repository
